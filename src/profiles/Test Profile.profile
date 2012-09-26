@@ -6,7 +6,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>TestDeleteRestrictAlbums</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <fieldPermissions>
         <editable>true</editable>
