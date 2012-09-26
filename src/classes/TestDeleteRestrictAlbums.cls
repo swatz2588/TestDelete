@@ -56,7 +56,8 @@ private class TestDeleteRestrictAlbums {
         // Delete the albums, opt_allOrNone = false, capture the results.
         Database.DeleteResult[] results = Database.delete(albums, false);
         
-        // Assert success for first album       
+        // Assert success for first album 
+        //hello      
         System.assert(results[0].isSuccess());   
         // Assert not success for second album
         System.assert(!results[1].isSuccess());
