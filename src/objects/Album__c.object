@@ -47,15 +47,6 @@
         <visibleLines>3</visibleLines>
     </fields>
     <fields>
-        <fullName>Price__c</fullName>
-        <externalId>false</externalId>
-        <label>Price</label>
-        <summarizedField>Track__c.Price__c</summarizedField>
-        <summaryForeignKey>Track__c.Album__c</summaryForeignKey>
-        <summaryOperation>sum</summaryOperation>
-        <type>Summary</type>
-    </fields>
-    <fields>
         <fullName>Released_On__c</fullName>
         <externalId>false</externalId>
         <label>Released On</label>
