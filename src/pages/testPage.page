@@ -1,0 +1,6 @@
+<apex:page standardController="Album__c">
+{!Album__c.Name} <br />
+{!Album__c.Description__c} <br />
+{!Album__c.Price__c} <br />
+{!Album__c.Released_On__c} 
+</apex:page>
