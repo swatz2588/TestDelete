@@ -27,7 +27,7 @@ global with sharing class CloudtunesController {
     */
     @RemoteAction
     global static List<Album__c> queryAlbums() {
-         return [SELECT Id, Name, Price__c FROM Album__c ORDER BY Name LIMIT 20];
+         return [SELECT Id, Name FROM Album__c ORDER BY Name LIMIT 20];
     }
     
     /**
@@ -36,7 +36,7 @@ global with sharing class CloudtunesController {
     */
     @RemoteAction
     global static List<Track__c> queryTracks(String albumId) {
-         return [SELECT Id, Name, Price__c, Album__c, Album__r.Name FROM Track__c WHERE Album__c = :albumId ORDER BY CREATEDDATE LIMIT 200];
+         return [SELECT Id, Name, Album__c, Album__r.Name FROM Track__c WHERE Album__c = :albumId ORDER BY CREATEDDATE LIMIT 200];
     }
     
     /** TEST METHODS **/
@@ -44,7 +44,7 @@ global with sharing class CloudtunesController {
         Album__c album = new Album__c(name = 'Title', Released_On__c=Date.newInstance(1965,08,06));
         insert album;
         
-        Track__c track = new Track__c(name = 'Track title', album__c = album.id, Price__c = 1.99);
+        Track__c track = new Track__c(name = 'Track title', album__c = album.id);
         insert track;
         
         List<Album__c> albums = queryAlbums();

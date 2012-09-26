@@ -13,10 +13,6 @@
         <name>Description__c</name>
     </fields>
     <fields>
-        <label><!-- Price --></label>
-        <name>Price__c</name>
-    </fields>
-    <fields>
         <label><!-- Released On --></label>
         <name>Released_On__c</name>
     </fields>
