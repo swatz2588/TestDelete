@@ -58,5 +58,5 @@
        
 </body>
 </html>
-
+<c:testComponent />
 </apex:page>
