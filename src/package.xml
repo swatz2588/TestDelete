@@ -42,6 +42,7 @@
         <name>PermissionSet</name>
     </types>
     <types>
+        <members>Admin</members>
         <members>Test Profile</members>
         <name>Profile</name>
     </types>
@@ -50,7 +51,8 @@
         <name>StaticResource</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Album__c</members>
+        <members>Track__c</members>
         <name>Workflow</name>
     </types>
     <version>24.0</version>
