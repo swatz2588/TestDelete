@@ -61,5 +61,9 @@
         <apexPage>cloudtunes_cache</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
+    <pageAccesses>
+        <apexPage>testPage</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
     <userLicense>Salesforce</userLicense>
 </Profile>
