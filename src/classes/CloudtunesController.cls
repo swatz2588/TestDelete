@@ -10,7 +10,7 @@ global with sharing class CloudtunesController {
                     return 'phonegap-1.2.0-android.js';
                 else
                     return 'phonegap-1.2.0-ios.js';
-                    
+                //ha ha   
                 // iOS-specific checks that you could make.  Above, we assume it's iOS if it's not Android.
                 //if (userAgent.contains('iPhone')
                 //    || userAgent.contains('iPod')
