@@ -4,10 +4,6 @@
         <apexClass>CloudtunesController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>TestDeleteRestrictAlbums</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
     <fieldPermissions>
         <editable>true</editable>
         <field>Album__c.Description__c</field>
